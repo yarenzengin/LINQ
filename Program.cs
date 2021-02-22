@@ -60,6 +60,8 @@ namespace LinqProject
             //{
             //    return products.Where(p => p.UnitPrice > 5000 && p.UnitsInStock > 3).ToList();
             //}
+            
+            //------------------FARKLI KULLANIM ŞEKİLLERİ-----------------------------
 
             //var result= products.Any(p=> p.ProductName == "Acer Laptop");
             //  Console.WriteLine(result);
@@ -89,7 +91,7 @@ namespace LinqProject
             //}
 
 
-            //JOIN ETME
+            //-----------------JOIN ETME----------------------------
 
             var result = from p in products
                          join c in categories
